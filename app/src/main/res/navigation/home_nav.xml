@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.cleanlogin.ui.main.view.fragment.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/schedules"
+        android:name="com.example.cleanlogin.ui.main.view.fragment.ScheduleFragment"
+        android:label="schedule_fragment"
+        tools:layout="@layout/schedule_fragment" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.cleanlogin.ui.main.view.fragment.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment" />
+</navigation>
